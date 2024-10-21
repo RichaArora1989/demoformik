@@ -9,18 +9,20 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@babel/preset-env": "^7.25.8",
+    "@babel/runtime": "^7.25.7",
+    "@expo/metro-runtime": "~3.2.3",
     "expo": "~51.0.28",
     "expo-status-bar": "~1.12.1",
     "formik": "^2.4.6",
     "react": "18.2.0",
-    "react-native": "0.74.5",
-    "yup": "^1.4.0",
-    "react-native-web": "~0.19.10",
     "react-dom": "18.2.0",
-    "@expo/metro-runtime": "~3.2.3"
+    "react-native": "0.74.5",
+    "react-native-web": "~0.19.10",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.25.8"
   },
   "private": true
 }
